@@ -1,0 +1,104 @@
+/* Lớn hơn hoặc bằng 1024px thì chạy */
+/* PC */
+@media (min-width: 1024px){
+
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+
+}
+
+
+/* Table & Moblie */
+@media (max-width: 1023px){
+    .buy-tickets{
+        padding: 15px 16px;
+    }
+    .contact-form .form-control{
+        padding: 16px;
+    }
+    .contect-info{
+        line-height: 2;
+    }
+    .social{
+        font-size: 48px;
+    }
+    .social a{
+        margin: 0px 8px;
+    }
+    #footer .copyright{
+        font-size: 25px;
+    }
+    #footer .copyright a{
+        padding: 8px 0px;
+        display: inline-block;
+    }
+}
+
+
+
+/* nhỏ hơn hoặc bằng 739px thì chạy */
+/* Moblie */
+@media (max-width: 739px) {
+     #header{
+        overflow: hidden;
+    }
+    #header .search-btn{
+        display: none;
+        
+    }
+    #header .menu-mobile-btn{
+        display: block;
+    }
+
+    #nav{
+        display: block;
+    }
+    
+    #nav > li{
+        display: block;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+    }
+    #nav .sub{
+        position: initial;
+        background-color:lightblue;
+    }
+    #nav .sub a{
+        color: rgb(0, 0, 0);
+        padding: 10px 41px;
+    }
+    #content .member-item{
+        float: initial;
+        width: 100%;
+    }
+    #content .member-item img{
+        width: 60%;
+        margin-bottom: 16px;
+    }
+    .place-list .list-place{
+        float: initial;
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    .contact-form .contect-info{
+        width: 100%;
+        line-height: 2;
+        margin-bottom: 32px;
+    }
+    .contect-info .form-text1{
+        width: 100%;
+    }
+    .contect-info .form-text2{
+        width: 100%;
+        margin-top: 8px;
+    }
+    .from-submit-btn{
+        width: 100%;
+    }
+    .buy-tickets{
+        width: 100%;
+    }
+}
