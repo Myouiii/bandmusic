@@ -44,6 +44,7 @@
      #header{
         overflow: hidden;
     }
+
     #header .search-btn{
         display: none;
         
@@ -100,5 +101,12 @@
     }
     .buy-tickets{
         width: 100%;
+    }
+
+    #slider .text-content{
+        bottom: 0;
+    }
+    #slider .text-content .text-heading{
+        font-size: 16px;
     }
 }

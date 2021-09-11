@@ -16,9 +16,7 @@ html
 3. mau sac
 4. kieu( kieu chu, hinh,... )
  */
-#main{
 
-}
 /* common */
 .clear{
     clear: both;
@@ -162,7 +160,7 @@ html
     position: relative;
     margin-top: 46px;
     padding-top: 50%;
-    background: url(/assets/img/slider1.jpg) top center / cover no-repeat;
+    background: url(../img/slider1.jpg) top center / cover no-repeat;
     
 }
 #slider .text-content
@@ -325,6 +323,7 @@ html
 }
 
 .buy-tickets{
+    cursor: pointer;
     border: none;
     display: inline-block;
     margin-top: 15px;
@@ -355,9 +354,7 @@ html
 .modal.open {
     display: flex;
 }
-.modal .close{
-   
-}
+
 .modal-container
 {
     position: relative;
