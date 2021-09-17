@@ -417,6 +417,7 @@ html
 }
 .modal-footer
 {
+    margin-bottom: 16px;
     padding: 16px;
     text-align: right;
 }
@@ -444,7 +445,6 @@ html
 }
 .modal-footer .close-btn{
     padding: 8px 16px;
-    margin: 16px 0px;
     color: white;
     background-color: #f44336;
     border: none;
